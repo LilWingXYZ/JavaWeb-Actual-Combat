@@ -1,0 +1,28 @@
+div {
+	width: 180px;
+	height: 240px;
+	float: left;
+}
+
+#div_big{
+	width: 1300px;
+	height: 680px;
+}
+
+.div_title {
+	width: 1300px;
+	height: 30px;
+}
+
+.div_left {
+	width: 150px;
+	height: 460px;
+	float: left;
+	margin-right: 10px;
+}
+
+.div_middle {
+	width: 540px;
+	height: 240px;
+	float: left;
+}

@@ -1,0 +1,41 @@
+1、什么JS?
+          基于对象：JS本身就有定义好对象，直接拿过来使用
+          事件驱动：使用对象的属性或方法操作页面
+           安全性：不能访问本地磁盘
+2、JavaScript与Java区别：（雷峰塔与雷峰）
+   *JAVA是sun公司，被 oracle收购了，JS是网景公司
+   *JAVA是面向对象的，JS基于对象的
+   *JAVA是一种强类型语言，JS是弱类型语言
+   *JAVA是先编译再运行，JS只需要解析就可以运行
+3、JavaScript的组成：
+   *ECMAScript：规定JS的语法
+   *DOM：针对文档进行操作，什么是文档（超文本文档:HTML,XML）
+   *BOM:浏览器模型（主要是针对浏览器进行操作）
+4、JS的基本结构
+    <script type="text/javascript">
+      JS语句；
+	</script>
+5、JS的引入方式
+    *<script>标签
+         <script type="text/x-javascript">
+	 	 //js语句
+	      </script>
+	*引入外部文件
+	     //当引入了外部JS文件时，不要在script里再写代码了，写了也不能用
+	     <script type="text/javascript" src="../js/myjs.js">
+	     </script>
+    *直接写在HTML标签 
+          <input type="button"  value="测试" onclick="javascript:alert('写在HTML')" />
+6、JS的基本语法
+    * 定义变量：var 合法的变量名（注意：JS里区分大小写）
+7、输入输出语句：
+    alert()：弹出提示对话框，只有确定按钮(不能输入)
+    prompt()： 提示输入的信息内容，返回值为输入值,有确定和取消按钮
+    confirm():确定提示框，不能输入，有确定和取消按钮，返回值 为true或false
+
+
+
+
+
+
+

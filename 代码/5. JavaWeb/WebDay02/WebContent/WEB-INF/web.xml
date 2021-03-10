@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>WebDay02</display-name>
+  <servlet>
+     <servlet-name>abc</servlet-name>
+     <servlet-class>com.hpe.servlet.MyFirstServlet</servlet-class>
+    <init-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:mysql://test</param-value>
+    </init-param>
+    <!--服务启动时创建servlet对象-->
+     <load-on-startup>3</load-on-startup>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>abc</servlet-name>
+      <!-- 请求访问资源的虚拟路径，必须以/开头 -->
+       <!--1、完全匹配，访问资源路径与配置的路径完全相同 -->
+          <url-pattern>/bcf</url-pattern>
+        <!--2、目录匹配 格式：/虚拟的目录../*   *代表任意  -->
+          <!-- <url-pattern>/bcf/ddd/eee/*</url-pattern> -->
+        <!--3、扩展名匹配 格式：*.扩展名  -->
+         <!-- <url-pattern>/</url-pattern> -->
+  </servlet-mapping>
+
+  <welcome-file-list>
+  	<welcome-file>login.html</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

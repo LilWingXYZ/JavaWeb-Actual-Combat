@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		你爱好的运动是？
+		<input type="checkbox" name="" id="全选/全不选" value="" onclick="allOrNo()"/>全选/全不选
+		<br />
+		<input type="checkbox" name="爱好" id="足球" value="足球" />足球
+		<input type="checkbox" name="爱好" id="篮球" value="篮球" />篮球
+		<input type="checkbox" name="爱好" id="羽毛球" value="羽毛球" />羽毛球
+		<input type="checkbox" name="爱好" id="乒乓球" value="乒乓球" />乒乓球
+		<br />
+		<input type="button" name="" id="全选" value="全    选" onclick="allSelect()"/>
+		<input type="button" name="" id="全不选" value="全不选" onclick="allNoSelect()"/>
+		<input type="button" name="" id="反选" value="反    选" onclick="antiSelect()" /> 
+		<input type="button" name="" id="提交" value="提    交" onclick="submitShow()" />
+	</body>
+	<script type="text/javascript">
+	
+		//全选or全不选
+		function allOrNo() {
+			var hobby = document.getElementsByName("爱好");
+			for(var i = 0; i < hobby.length; i++) {
+				if(document.getElementById("全选/全不选").checked == true) {
+					hobby[i].checked = true
+				}else {
+					hobby[i].checked = false;
+				}
+			}
+		}
+		
+		//全选
+		function allSelect() {
+			document.getElementById("足球").checked = "checked";
+			document.getElementById("篮球").checked = "checked";
+			document.getElementById("羽毛球").checked = "checked";
+			document.getElementById("乒乓球").checked = "checked";
+		}
+		
+		//全不选
+		function allNoSelect() {		
+			document.getElementById("足球").checked = null;
+			document.getElementById("篮球").checked = null;
+			document.getElementById("羽毛球").checked = null;
+			document.getElementById("乒乓球").checked = null;
+		}
+		
+		//反选
+		function antiSelect() {
+			var hobby = document.getElementsByName("爱好");
+			for(var i = 0; i < hobby.length; i++) {
+				if(hobby[i].checked == true) {
+					hobby[i].checked = false;
+				}else {
+					hobby[i].checked = true;
+				}
+			}
+		}
+		
+		//提交
+		function submitShow() {
+			var hobby = document.getElementsByName("爱好");
+			for(var i = 0; i < hobby.length; i++) {
+				if(hobby[i].checked == true) {
+					alert(hobby[i].value);
+				}
+			}
+		}
+		
+	</script>
+</html>

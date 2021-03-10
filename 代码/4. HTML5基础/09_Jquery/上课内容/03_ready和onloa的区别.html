@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../lib/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//ready方法可以有多个，而且每一个都会执行
+			$(document).ready(function(){
+				alert("ready-1");
+			})
+			$(document).ready(function(){
+				alert("ready-2");
+			})
+			$(document).ready(function(){
+				alert("ready-3");
+			})
+			//onload方法只会执行一个，并且执行的是最后一个
+			window.onload = function(){
+				alert("onload-1");
+			}
+			window.onload = function(){
+				alert("onload-2");
+			}
+			window.onload = function(){
+				alert("onload-3");
+			}
+			
+			//ready简写
+			$(function(){
+				alert("这是ready方法的简写形式");
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../lib/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<input type="button" value="删除" />
+		<script type="text/javascript">
+			$(document).ready(function(){
+				/*//根据标签进行选择
+				$("input").click(function(){
+					alert("确认要删除吗？删除后就无法恢复了");
+				})*/
+				//根据属性来进行选择
+				$("[type='button']").click(function(){
+					alert("确认要删除吗？删除后就无法恢复了");
+				})
+			})
+		</script>
+	</body>
+</html>

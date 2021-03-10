@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../lib/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<h1>鼠标悬停、移出事件演示</h1>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//鼠标悬停事件
+				$("h1").mouseover(function(){
+					$("h1").css("background-color","red");
+				})
+				//鼠标移出事件实现
+				$("h1").mouseout(function(){
+					$("h1").css("background-color","yellow");
+				})
+			})
+		</script>
+	</body>
+</html>

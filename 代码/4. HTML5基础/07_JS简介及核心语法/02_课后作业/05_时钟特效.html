@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		var dates = new Date();
+		var hours = dates.getHours();
+		var week = "一";
+		if(hours>12) {
+			hours -= 12;
+		}
+		switch(dates.getDay()) {
+			case 1:
+				week = "一";
+				break;
+			case 2:
+				week = "二";
+				break;
+			case 3:
+				week = "三";
+				break;
+			case 4:
+				week = "四";
+				break;
+			case 5:
+				week = "五";
+				break;
+			case 6:
+				week = "六";
+				break;
+			case 0:
+				week = "日";
+				break;
+				
+		}
+		if(dates.getHours() <= 12) {
+			document.write("上午好！");
+		}else if(dates.getHours() > 18) {
+			document.write("晚上好！");
+		}else {
+			document.write("下午好！");
+		}
+		document.write("<br />");
+		document.write("今天日期："+dates.getFullYear()+"年"+(dates.getMonth()+1)+"月"+dates.getDate()+"日"+"  星期"+week+"<br />");
+		document.write("现在时间："+hours+"点"+dates.getMinutes()+"分"+"<br />");
+		
+	</script>
+</html>

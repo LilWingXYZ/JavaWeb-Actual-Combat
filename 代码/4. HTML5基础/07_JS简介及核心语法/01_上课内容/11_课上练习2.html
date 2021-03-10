@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="button" name="" id="" value="调用函数" onclick="math_calculation()" />
+	</body>
+	<script type="text/javascript">
+		emp=new Array(3);
+		emp[0]=0;
+		emp[1]=0;
+		emp[2]=0;
+		emp[3]=0;
+		document.write(emp.length);
+	
+		function math_calculation() {
+			var var1=prompt("请输入第一个数字");
+			var var2=prompt("请输入第二个数字");
+			var op=prompt("请输运算符");
+			var result;
+			switch(op) {
+				case "+": 
+					result = parseFloat(var1) + parseFloat(var2);
+					break;
+			}
+			alert(var1+op+var2+"="+result );
+		}
+	</script>
+</html>

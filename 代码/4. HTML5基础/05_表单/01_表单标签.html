@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<form method="get" action="01_表格的基本结构.html">
+			<input type="hidden" name="id"/>
+			用户名：<input type="text" name="username" 
+				  placeholder="zhangsan" readonly="true" /><br />
+			<br />
+			密&nbsp;&nbsp;码：<input type="password"  name="password" /><br />
+			<br />
+			性&nbsp;&nbsp;别：<input type="radio" name="sex" value="woman">女
+				            <input type="radio" name="sex" value="man">男
+		    <br />
+			爱&nbsp;&nbsp;好：<input type="checkbox" name="aihao" value="tq"/> 台球
+			                <input type="checkbox" name="aihao" value="ppq"/> 乒乓球
+			                <input type="checkbox" name="aihao" value="lq"/> 篮球
+			<br />
+			图&nbsp;&nbsp;像：<input type="file" name="myfile" value="myfile"/>
+			<br />
+			所在城市：<select name="city">
+				       <option value="0">--请选择--</option>
+				       <option value="1">-- 北京 --</option>
+				       <option value="2">-- 上海 --</option>
+				       <option value="3">-- 衡水 --</option>
+			       </select>
+			<br />
+			自己评价：<textarea rows="5" cols="10">
+		        	</textarea>
+		     <br />
+			<input type="submit" value="自动提交"/>
+			<input type="reset" value="重新设置"/>
+			<input type="button" value="普通按钮" disabled="disabled" />
+		</form>
+	</body>
+</html>

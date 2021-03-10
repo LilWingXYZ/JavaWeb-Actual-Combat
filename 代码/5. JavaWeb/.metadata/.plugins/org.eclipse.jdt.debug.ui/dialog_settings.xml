@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="conditionHistory">
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=lifeAssistant_Student/\/lifeAssistant_Student\/lib\/mysql-connector-java-5.1.7-bin.jar&amp;lt;com.mysql.jdbc(DocsConnectionPropsHelper.class[DocsConnectionPropsHelper&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=liftAssistant_Student/lib\/mysql-connector-java-5.1.7-bin.jar&amp;lt;com.mysql.jdbc(DocsConnectionPropsHelper.class[DocsConnectionPropsHelper&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=lifeAssistant_Student/src&amp;lt;com.hpe.view{MainUI.java[MainUI&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=liftAssistant_Student/src&amp;lt;com.hpe.view{MainUI.java[MainUI&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=JXCSystem/C:\/Users\/McGradyXYZ\/Desktop\/Eclipse超市\/二次修改\/JXCSystem\/WebRoot\/WEB-INF\/lib\/mysql-connector-java-5.0.4-bin.jar&amp;lt;com.mysql.jdbc(DocsConnectionPropsHelper.class[DocsConnectionPropsHelper&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=DB/src\/lib\/poi-examples-3.17.jar&amp;lt;org.apache.poi.ss.examples(AddDimensionedImage.class[AddDimensionedImage&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="276" key="DIALOG_X_ORIGIN"/>
+			<item value="54" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

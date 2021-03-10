@@ -1,0 +1,10 @@
+package com.hp.day6.homework;
+
+public class PeopleTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

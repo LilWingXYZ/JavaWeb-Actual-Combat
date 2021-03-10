@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../lib/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<h1  id="h1">这是一级标题</h1>
+		<p class="pp1">这是段落</p>
+		<p class="pp2">这是另外一个段落</p>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//把所有的段落都设置成背景色为红色
+				//注意设置多个样式时的写法
+				/*//通过标签进行选择
+				$("p").css({"background-color":"red","color":"yellow"});
+				//通过class进行选择
+				$(".pp").css("background-color","blue");
+				//根据id进行选择
+				$("#h1").css("color","red");*/
+				/*$("p").css("color","green");*/
+				$("[class!='pp1']").css("color","red");
+				
+			})
+			
+		</script>
+	</body>
+</html>

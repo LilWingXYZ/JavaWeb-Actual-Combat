@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+</head>
+<body>
+	<!-- 创建form表单
+		action:请求的位置
+		method：请求的方式get post
+	 -->
+	<form action="/Servlet02/DServlet" method="get">
+		<label>用户名</label>
+		<input type="text" name="username" />
+		<label>密码</label>
+		<input type="password" name="password" />
+		<label>爱好</label>
+		<input type="checkbox" name="hobbys" value="sleep1" />睡觉1
+		<input type="checkbox" name="hobbys" value="sleep2" />睡觉2
+		<input type="checkbox" name="hobbys" value="sleep3" />睡觉3
+		<input type="checkbox" name="hobbys" value="sleep4" />睡觉4
+		<input type="checkbox" name="hobbys" value="sleep5" />睡觉5
+		<button type="submit">登录</button>
+	</form>
+</body>
+</html>

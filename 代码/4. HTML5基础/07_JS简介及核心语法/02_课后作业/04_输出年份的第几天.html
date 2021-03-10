@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		var year = prompt("请输入年份");
+		var month = prompt("请输入月份");
+		var day = prompt("请输入日期");
+		var averageYear = [31,28,31,30,31,30,31,31,30,31,30,31];
+		var leapYear = [31,29,31,30,31,30,31,31,30,31,30,31];
+		var sum = 0;
+		//判断闰年
+		if(year%400==0 || (year%4==0 && year%100!=0)) {
+			for(var i = 0; i<month-1; i++) {
+				sum = sum + leapYear[i];
+			}
+			sum += Number(day);
+		}else {
+			for(var i = 0; i<month-1; i++) {
+				sum = sum + averageYear[i];
+			}
+			sum += Number(day);
+		}
+		alert(year+"年"+month+"月"+day+"日是"+year+"年的第"+sum+"天");
+	</script>
+</html>

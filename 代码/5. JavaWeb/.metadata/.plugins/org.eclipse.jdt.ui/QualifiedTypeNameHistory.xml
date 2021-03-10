@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.hp.day6.homework.Point"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.hp.day8.extend.Officier"/>
+<fullyQualifiedTypeName name="com.hp.day8.extend.Graduate"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.hp.day9.polymorphic.Instrument"/>
+<fullyQualifiedTypeName name="com.hp.day9.polymorphic.TestInstrument"/>
+<fullyQualifiedTypeName name="com.hp.day9.finaltest.Animal"/>
+<fullyQualifiedTypeName name="com.hp.day9.finaltest.PlayWithAnimal"/>
+<fullyQualifiedTypeName name="com.hp.day9.statictest.Person"/>
+<fullyQualifiedTypeName name="com.hp.day10.abs.Instrument"/>
+<fullyQualifiedTypeName name="com.hp.day11.array.ArrayDef"/>
+<fullyQualifiedTypeName name="com.hp.day8.extend.Student"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="com.hp.day8.extend.Person"/>
+<fullyQualifiedTypeName name="com.hp.day8.extend.Soldier"/>
+<fullyQualifiedTypeName name="javax.servlet.Servlet"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>

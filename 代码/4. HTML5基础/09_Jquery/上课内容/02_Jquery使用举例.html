@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../lib/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<input type="button"  id="btn" value="点我" />
+	<!--	<script type="text/javascript">
+			function show(){
+				alert("使用js实现点击按钮弹出消息");
+			}
+		</script>-->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#btn").click(function(){
+					alert("使用jquery实现点击按钮弹出消息");
+				})
+			})
+		</script>
+		
+		
+	</body>
+</html>

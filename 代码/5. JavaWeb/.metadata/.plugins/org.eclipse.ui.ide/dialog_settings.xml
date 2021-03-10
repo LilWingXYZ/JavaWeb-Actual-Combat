@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\McGradyXYZ\Desktop\数据库课程设计\超市管理系统\工程迭代\3\DB1.0\DB1.0\DB"/>
+			<item value="C:\Users\McGradyXYZ\Desktop\Eclipse超市\二次修改\JXCSystem"/>
+			<item value="F:\eclipse\workspace\Servlet03"/>
+			<item value="F:\eclipse\workspace\Servlet02"/>
+			<item value="F:\eclipse\workspace\WebDay01"/>
+			<item value="F:\eclipse\workspace\Servlet01"/>
+			<item value="F:\eclipse\workspace\liftAssistant_Student"/>
+			<item value="F:\eclipse\workspace\WebDay02"/>
+			<item value="C:\Users\McGradyXYZ\Desktop\WebDay02"/>
+			<item value="C:\Users\McGradyXYZ\Desktop\liftAssistant_Student"/>
+			<item value="C:\Users\McGradyXYZ\Desktop\电影\liftAssistant_Student"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>
